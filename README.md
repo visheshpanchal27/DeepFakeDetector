@@ -54,7 +54,7 @@ scripts\install_simple.bat
 
 **Option 2: Manual Install**
 ```bash
-git clone https://github.com/YOUR_USERNAME/DeepFakeDetector.git
+git clone https://github.com/visheshpanchal27/DeepFakeDetector.git
 cd DeepFakeDetector
 pip install -r requirements.txt
 ```
@@ -177,8 +177,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Support
 
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/DeepFakeDetector/issues)
-- **Documentation**: [Wiki](https://github.com/YOUR_USERNAME/DeepFakeDetector/wiki)
+- **Issues**: [GitHub Issues](https://github.com/visheshpanchal27/DeepFakeDetector/issues)
+- **Documentation**: [Wiki](https://github.com/visheshpanchal27/DeepFakeDetector/wiki)
 - **Email**: support@deepfakedetector.com
 
 ## ⭐ Acknowledgments
