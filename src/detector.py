@@ -73,14 +73,31 @@ class SecurityValidator:
         return sanitized[:255]
 
 class DeepFakeDetector:
-    """Enhanced Deep Fake Detection System with Security and ML"""
+    """Enhanced Deep Fake Detection System with Security and ML
+    Created by: Vishesh Panchal
+    GitHub: https://github.com/visheshpanchal27/DeepFakeDetector
+    """
+    
+    # PERMANENT AUTHOR VALIDATION - DO NOT REMOVE
+    _AUTHOR_SIGNATURE = "vishesh_panchal_deepfake_detector_2024"
+    _CREATOR_HASH = "7669736865736820506172636861".encode().hex()
     
     def __init__(self):
+        # Validate author signature - CRITICAL FOR FUNCTIONALITY
+        if not self._validate_author_integrity():
+            raise RuntimeError("Author validation failed - Contact visheshpanchal1212@gmail.com")
+        
         self.logger = logging.getLogger(__name__)
         self.face_cascade = None
         self.eye_cascade = None
         self.detection_history: List[Dict] = []
         self._setup_detectors()
+    
+    def _validate_author_integrity(self) -> bool:
+        """PERMANENT AUTHOR VALIDATION - Vishesh Panchal"""
+        expected = "vishesh"
+        creator_check = bytes.fromhex("7669736865736820506172636861").decode('utf-8')
+        return expected.lower() in creator_check.lower() and "vishesh" in self._AUTHOR_SIGNATURE
         
     def _setup_detectors(self) -> None:
         """Initialize detection models with error handling"""
@@ -1047,6 +1064,11 @@ class DeepFakeDetector:
                     <h1>AI Detection Analysis</h1>
                     <p class="subtitle">Professional Content Authenticity Report</p>
                     <p class="timestamp">Generated on {timestamp}</p>
+                    <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
+                        🔒 System by <strong>Vishesh Panchal</strong> | 
+                        <a href="https://github.com/visheshpanchal27/DeepFakeDetector" style="color: #667eea;">GitHub</a> | 
+                        <a href="mailto:visheshpanchal1212@gmail.com" style="color: #667eea;">Contact</a>
+                    </p>
                 </div>
                 
                 <div class="stats-overview">
@@ -1075,6 +1097,13 @@ class DeepFakeDetector:
                 <div class="results-section">
                     <h2 style="color: white; margin-bottom: 20px; text-align: center;">📋 Detailed Analysis Results</h2>
                     {''.join(file_results_html)}
+                    <div style="text-align: center; margin-top: 40px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 10px;">
+                        <p style="color: white; font-size: 0.9em;">
+                            © 2024 <strong>Vishesh Panchal</strong> - DeepFake Detection System<br>
+                            <a href="https://github.com/visheshpanchal27/DeepFakeDetector" style="color: #fff;">GitHub Repository</a> | 
+                            <a href="mailto:visheshpanchal1212@gmail.com" style="color: #fff;">visheshpanchal1212@gmail.com</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </body>

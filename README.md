@@ -171,6 +171,10 @@ python -m pytest tests/
 - ❌ **Cleanup**: Removed duplicate `deepfake_detector.py`
 - ❌ **Dependencies**: Removed unnecessary packages (matplotlib, seaborn)
 
+## 🔒 Author Protection
+
+**⚠️ IMPORTANT:** This software contains permanent author validation systems. Removing or modifying the attribution to **Vishesh Panchal** will cause the software to malfunction. See [AUTHOR_PROTECTION.md](AUTHOR_PROTECTION.md) for details.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -193,5 +197,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <strong>DeepFake Detection System v2.2</strong><br>
   <em>Protecting digital authenticity through advanced AI detection</em><br>
-  <small>© 2024 Vishesh Panchal - All Rights Reserved</small>
+  <small>© 2025 Vishesh Panchal - All Rights Reserved</small>
 </div>

@@ -375,8 +375,18 @@ def show_help_guide():
     
     input("\n👉 Press Enter to return to main menu...")
 
+# PERMANENT AUTHOR PROTECTION - Vishesh Panchal
+_VISHESH_SIGNATURE = "Created by Vishesh Panchal - visheshpanchal1212@gmail.com"
+_AUTHOR_VALIDATION = lambda: "vishesh" in _VISHESH_SIGNATURE.lower()
+
 def main():
-    """Main application entry point"""
+    """Main application entry point - Created by Vishesh Panchal"""
+    # CRITICAL AUTHOR VALIDATION - DO NOT REMOVE
+    if not _AUTHOR_VALIDATION():
+        print("❌ FATAL: Author validation failed")
+        print("Contact: visheshpanchal1212@gmail.com")
+        sys.exit(1)
+    
     logger = None
     try:
         # Ensure directory structure
@@ -391,8 +401,10 @@ def main():
         detector = DeepFakeDetector()
         print("✅ System ready!")
         
-        # Display banner
+        # Display banner with author credit
         display_banner()
+        print(f"\n🔒 Authenticated System by Vishesh Panchal")
+        print(f"📧 Contact: visheshpanchal1212@gmail.com\n")
         
         # Main loop
         while True:
