@@ -13,7 +13,7 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent / 'src'))
 
 try:
-    from improved_detector import ImprovedDeepFakeDetector
+    from detector import DeepFakeDetector
     from config import Config
     from utils import setup_logging
 except ImportError as e:
@@ -386,7 +386,7 @@ def main():
         
         # Initialize detector
         print("🔄 Initializing AI Detection System...")
-        detector = ImprovedDeepFakeDetector()
+        detector = DeepFakeDetector()
         print("✅ System ready!")
         
         # Display banner

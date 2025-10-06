@@ -21,7 +21,7 @@ Advanced AI-generated content detection system using computer vision and machine
 ```
 DeepFakeDetector/
 ├── src/                          # Core source code
-│   ├── improved_detector.py      # Main AI detection engine
+│   ├── detector.py               # Main AI detection engine
 │   ├── config.py                 # Configuration settings
 │   └── utils.py                  # Utility functions
 ├── scripts/                      # Installation scripts
@@ -29,7 +29,7 @@ DeepFakeDetector/
 │   └── install.ps1               # PowerShell installer
 ├── AI_Detection_Reports/         # Generated reports
 ├── tests/                        # Test files
-│   └── test_improved.py          # Test suite
+│   └── test_detector.py          # Test suite
 ├── logs/                         # System logs
 ├── Analysis_Results/             # Individual analysis results
 ├── temp/                         # Temporary files
@@ -98,10 +98,10 @@ python main.py --report
 
 ### Basic Implementation
 ```python
-from src.improved_detector import ImprovedDeepFakeDetector
+from src.detector import DeepFakeDetector
 
 # Initialize detector
-detector = ImprovedDeepFakeDetector()
+detector = DeepFakeDetector()
 
 # Analyze single image
 result = detector.analyze_image("path/to/image.jpg")
@@ -118,7 +118,7 @@ detector.generate_report()
 ### Advanced Configuration
 ```python
 # Custom settings
-detector = ImprovedDeepFakeDetector(
+detector = DeepFakeDetector(
     confidence_threshold=0.7,
     enable_video_analysis=True,
     output_format='json'

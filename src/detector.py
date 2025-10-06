@@ -65,7 +65,7 @@ class SecurityValidator:
         # Limit length
         return sanitized[:255]
 
-class ImprovedDeepFakeDetector:
+class DeepFakeDetector:
     """Enhanced Deep Fake Detection System with Security and ML"""
     
     def __init__(self):
@@ -1079,7 +1079,7 @@ class ImprovedDeepFakeDetector:
 def main():
     """Main function with improved error handling"""
     try:
-        detector = ImprovedDeepFakeDetector()
+        detector = DeepFakeDetector()
         
         print("🔍 ENHANCED AI DETECTION SYSTEM")
         print("=" * 50)
