@@ -180,6 +180,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Issues**: [GitHub Issues](https://github.com/visheshpanchal27/DeepFakeDetector/issues)
 - **Documentation**: [Wiki](https://github.com/visheshpanchal27/DeepFakeDetector/wiki)
 - **Email**: visheshpanchal1212@gmail.com
+- **Author**: Vishesh Panchal
 
 ## ⭐ Acknowledgments
 
@@ -191,5 +192,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
   <strong>DeepFake Detection System v2.2</strong><br>
-  <em>Protecting digital authenticity through advanced AI detection</em>
+  <em>Protecting digital authenticity through advanced AI detection</em><br>
+  <small>© 2024 Vishesh Panchal - All Rights Reserved</small>
 </div>

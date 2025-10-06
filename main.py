@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
+DeepFake Detection System
+Author: Vishesh Panchal
+GitHub: https://github.com/visheshpanchal27/DeepFakeDetector
 Optimized AI vs Human Detection System
-Simplified and secure main entry point
 """
 
 import sys

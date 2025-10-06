@@ -1,3 +1,10 @@
+"""
+DeepFake Detection System - Core Detection Engine
+Author: Vishesh Panchal
+GitHub: https://github.com/visheshpanchal27/DeepFakeDetector
+Advanced AI-generated content detection using computer vision and ML
+"""
+
 import cv2
 import numpy as np
 import os
