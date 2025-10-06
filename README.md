@@ -179,7 +179,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/visheshpanchal27/DeepFakeDetector/issues)
 - **Documentation**: [Wiki](https://github.com/visheshpanchal27/DeepFakeDetector/wiki)
-- **Email**: support@deepfakedetector.com
+- **Email**: visheshpanchal1212@gmail.com
 
 ## ⭐ Acknowledgments
 
