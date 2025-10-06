@@ -1,0 +1,22 @@
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Analysis results
+Analysis_Results/
+AI_Detection_Reports/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
